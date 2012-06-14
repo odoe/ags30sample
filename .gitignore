@@ -1,0 +1,6 @@
+*.swp
+#~
+.sass-cache/*
+*.rb
+.sass/*
+.img/*

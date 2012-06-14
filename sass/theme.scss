@@ -1,0 +1,16 @@
+// theme
+// http://kuler.adobe.com/#themeID/1884617
+$main_color: #248a8a;
+$secondary_color: #c9fa58;
+$base_color: #f9e555;
+$prime_color: #faac38;
+$accent_color: #f2572a;
+
+$helvetica: "helvetica neue", arial, helvetica, freesans,
+            "libaration sans", "numbus sans l", sans-serif;
+
+body {
+  //background: desaturate($base_color, 40%);
+  background: desaturate($main_color, 40%);
+  color: #fff;
+  font-family: $helvetica; }
