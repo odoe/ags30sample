@@ -3,6 +3,7 @@
   require({
     async: true,
     parseOnLoad: true,
+    aliases: [["text", "dojo/text"]],
     packages: [
       {
         name: "jquery",

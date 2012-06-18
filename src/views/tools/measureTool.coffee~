@@ -10,7 +10,7 @@ define [
   'jquery'
   'underscore'
   'backbone'
-  'text!templates/MeasureTool.html'
+  'dojo/text!templates/MeasureTool.html'
   # You can load extra libraries, like jquery without passing them
   # in the callback. For example, jqueryui returns/modifies $ to
   # add ui functionality. So add it to

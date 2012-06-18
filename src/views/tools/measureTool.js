@@ -1,6 +1,6 @@
 (function() {
 
-  define(['jquery', 'underscore', 'backbone', 'dojo/text!templates/MeasureTool.html', 'jqueryui'], function($, _, Backbone, MeasureTemplate) {
+  define(['jquery', 'underscore', 'backbone', 'text!templates/MeasureTool.html', 'jqueryui'], function($, _, Backbone, MeasureTemplate) {
     var MeasureView;
     return MeasureView = Backbone.View.extend({
       tagName: "div",

@@ -7,8 +7,8 @@ require
   async: true # can also be async: 1, shorthand for use in define() modules
   # parseOnLoad - will just scan your DOM for dojo elements
   parseOnLoad: true
-  # set an alias for dojo/text, just
-  # to make it easier to use
+  # tried to set an alias as described in docs
+  # didn't work for me
   aliases: [
     [ "text", "dojo/text" ]
   ]
