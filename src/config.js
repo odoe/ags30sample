@@ -43,8 +43,10 @@
 
   define.amd.jQuery = true;
 
-  require(['app'], function(App) {
-    return App.initialize();
+  require(['jquery', 'app'], function($, App) {
+    return $(document).ready(function() {
+      return App.initialize();
+    });
   });
 
 }).call(this);

@@ -65,5 +65,10 @@ require
 # see this link for more information
 # https://github.com/amdjs/amdjs-api/wiki/jQuery-and-AMD
 define.amd.jQuery = true
-require ['app'], (App) ->
-	App.initialize()
+require ['jquery', 'app'], ($, App) ->
+  # Make sure jQuery is ready to roll.
+  # This is usually important if you have
+  # data-* attributes that need to be parsed
+  # by a jQuery ui extension.
+  $(document).ready ->
+    App.initialize()
